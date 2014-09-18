@@ -3,43 +3,52 @@
 	<head>
 		<title>Kontakt</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
 	</head>
 	<body>
-		<div id="menu">
-			<ul>
-				<li><a href="../index.html">Start</a></li>
-				<li><a href="laborationer.html">Laborationer</a></li>
-				<li><a href="presentation.html">Presentation</a></li>
-				<li><a href="kontakt.html">Kontakt</a></li>
-			</ul>
-		</div>
-		<div id="container">
-			<div id="content">
-				<div id="form">
-	                <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-	                    <fieldset>
-	                        <legend>Fråga</legend>
-	                        Ärendetyp
-	                            <select name="Typ av fråga">
-	                                <option value="Fråga">Fråga</option>
-	                                <option value="Klagomål">Klagomål</option>
-	                            </select>
-	                            	<br><label for="rubrik">Rubrik:</label>                    
-	                            		<input type="text" id="rubrik" name="Rubrik" size="30"/>
-	                            	<br><label for="fraga">Fråga:</label>
-	                            		<textarea id="fraga" name="Fråga" rows="2" cols="30" placeholder="Skriv din fråga här!"></textarea>
-	                    </fieldset>
-	                    <fieldset>
-	                        <legend>Information om dig</legend>
-	                        Kontakta mig via mail <input type="checkbox" name="Mail" value="kontakt via mail"><br>
-	                        Kontakta mig via telefon <input type="checkbox" name="Telefon" value="kontakt via telefon">
-	                    </fieldset>
-	                    <button type="submit">Skicka frågan</button>
-	                </form>
+		<div id="bodyWrapper">
+			<div id="logoPic">
+				<img src="../pics/blog.png" alt="¨picture with blog written in it">
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="../index.html">Start</a></li>
+					<li><a href="laborationer.html">Laborationer</a></li>
+					<li><a href="presentation.html">Presentation</a></li>
+					<li><a href="kontakt.html">Kontakt</a></li>
+				</ul>
+			</div>
+			<div id="container">
+				<div id="content">
+					<div id="form">
+		                <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+		                    <fieldset>
+		                        <legend>Fråga</legend>
+		                        Ärendetyp
+		                            <select name="Typ av fråga">
+		                                <option value="Fråga">Fråga</option>
+		                                <option value="Klagomål">Klagomål</option>
+		                            </select>
+		                            	<br><label for="rubrik">Rubrik:</label>                    
+		                            		<input type="text" id="rubrik" name="Rubrik" size="30"/>
+		                            	<br><label for="fraga">Fråga:</label>
+		                            		<textarea id="fraga" name="Fråga" rows="2" cols="30" placeholder="Skriv din fråga här!"></textarea>
+		                    </fieldset>
+		                    <fieldset>
+		                        <legend>Information om dig</legend>
+		                        Kontakta mig via mail <input type="checkbox" name="Mail" value="kontakt via mail"><br>
+		                        Kontakta mig via telefon <input type="checkbox" name="Telefon" value="kontakt via telefon">
+		                    </fieldset>
+		                    <button type="submit">Skicka frågan</button>
+		                </form>
+					</div>
 				</div>
 			</div>
+			<div id="footerWrapper">
+				<footer>
+					<p>Test hej hej Adam Lundberg</p>
+				</footer>
+			</div>
 		</div>
-		<footer>
-		</footer>
 	</body>
 </html>
