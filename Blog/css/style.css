@@ -1,11 +1,10 @@
-html, body, div {
+html, body, div, ul {
 	margin: 0;
 	padding: 0;
 }
 
 html {
 	overflow-y: scroll;
-
 	background: rgb(237, 237, 237);
 }
 
@@ -39,6 +38,33 @@ td {
 	float: left;
 	background: rgb(255, 255, 255);
 	border: 1px solid rgba(0, 0, 0, .2);
+	text-decoration: none;
+	overflow: auto;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+#menu ul {
+	list-style: none;
+}
+
+#menu a {
+	display: block;
+	color: rgb(0, 0, 0);
+	width: 185px;
+	text-decoration: none;
+	padding: 10px 0px 10px 5px;
+}
+
+#menu .active {
+	color: rgb(237, 237, 237);
+	background: rgb(0, 0, 0); 
+}
+
+#menu a:hover {
+	background: rgb(237, 237, 237);
+	color: rgb(0, 0, 0);
 }
 
 #container {
