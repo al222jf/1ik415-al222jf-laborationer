@@ -1,11 +1,13 @@
-html, body, div {
+html, body, div, p {
 	margin: 0;
 	padding: 0;
 }
 
 html {
 	overflow-y: scroll;
-	background: rgb(237, 237, 237);
+	/*background: rgb(237, 237, 237); */
+	background-image:url('pics/greyBack.png');
+	background-attachment: fixed;
 }
 
 ol, dt, dd, ul{
@@ -14,6 +16,7 @@ ol, dt, dd, ul{
 
 table {
 	border-collapse: collapse;
+	margin-bottom: 50px;
 }
 
 table, th, td {
@@ -43,7 +46,7 @@ a {
 	width: 1200px;
 	overflow: auto;
 	margin: auto;
-	background-color: rgb(241, 241, 241);
+	background-color: rgba(241, 241, 241, 0.8);
 }
 
 #logoPic {
@@ -51,11 +54,13 @@ a {
 	height: 109px;
 	margin: auto;
 }
+
+/*Menu buttons --------- Start */
 #menu {
 	width: 190px;
 	float: left;
 	background: rgb(255, 255, 255);
-	border: 1px solid rgba(0, 0, 0, .2);
+	border: 1px solid rgba(0, 0, 0, .5);
 	text-decoration: none;
 	overflow: auto;
 	font-weight: bold;
@@ -86,6 +91,7 @@ a {
 	background: rgb(237, 237, 237);
 	color: rgb(0, 0, 0);
 }
+/*Menu buttons --------- End */
 
 #container {
 	width: 1100px;
@@ -100,21 +106,37 @@ a {
 
 #contentAfter {
 	background: rgb(255, 255, 255);
-	border: 1px solid rgba(0, 0, 0, .2);
+	border: 1px solid rgba(0, 0, 0, .5);
 	padding: 50px;
 	margin-bottom: 100px;
 }
 .blog {
 	width: 650px;
+	overflow: auto;
 	background: rgb(255, 255, 255);
-	border: 1px solid rgba(0, 0, 0, .2);
+	border: 1px solid rgba(0, 0, 0, .5);
 	padding: 50px;
 	margin-bottom: 50px;
+}
+
+.author {
+	margin-top: 20px;
+}
+
+#candyPic {
+	height: 200px;
+	width: auto;
+	float: right;
 }
 
 #presentation h2 {
 	margin-top: 50px;
 }
+
+#presentation img {
+	border: 2px solid rgba(0, 0, 0, .5);
+}
+
 #form {
 	width: 400px;
 	margin: auto;
