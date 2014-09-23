@@ -1,4 +1,4 @@
-html, body, div, ul {
+html, body, div {
 	margin: 0;
 	padding: 0;
 }
@@ -6,6 +6,10 @@ html, body, div, ul {
 html {
 	overflow-y: scroll;
 	background: rgb(237, 237, 237);
+}
+
+ol, dt, dd, ul{
+	font-weight: bold;
 }
 
 table {
@@ -17,14 +21,28 @@ table, th, td {
 }
 
 td {
-	padding: 2px; 
+	padding: 5px; 
+	font-weight: bold;
+}
+
+p {
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+a {
+	font-size: 16px;
+	font-weight: bold;
 }
 
 #bodyWrapper {
 	width: 1200px;
 	overflow: auto;
 	margin: auto;
-
 	background-color: rgb(241, 241, 241);
 }
 
@@ -47,6 +65,8 @@ td {
 
 #menu ul {
 	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 #menu a {
