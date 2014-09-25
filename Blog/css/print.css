@@ -1,0 +1,48 @@
+@media print {
+	
+	h2 {
+		font-size: 20px;
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+	#bodyWrapper {
+		width: 100%;
+		margin: 0;
+	}
+
+	#container {
+		width: 100%;
+		margin: 0;
+	}
+
+	#content {
+		width: 100%;
+		margin: 0;
+	}
+
+	#contentAfter {
+		padding: 0;
+		margin: 0;
+		border: 0;
+	}
+
+	#menu{
+		display: none;
+	}
+
+	#logoPic {
+		display: none;
+	}
+
+	.blog {
+		border: none;
+		padding: 0;
+	}
+
+	#presentation img {
+		border: 0;
+	}
+}

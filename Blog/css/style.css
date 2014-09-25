@@ -119,6 +119,14 @@ a {
 	margin-bottom: 50px;
 }
 
+.blogPic {
+	background-image:url('pics/blogPic.png');
+	background-repeat: no-repeat;
+	height: 45px;
+	width: 45px;
+	margin-top: 10px;
+}
+
 .author {
 	margin-top: 20px;
 }
@@ -142,6 +150,38 @@ a {
 	margin: auto;
 }
 
+.formBorder {
+	padding: 10px;
+}
+
+#dropdown {
+	margin-left: 5px;
+}
+
+#headline {
+	margin-left: 24px;
+	margin-top: 15px;
+}
+
+#question {
+	margin-left: 32px;
+	margin-top: 15px;
+}
+
+#checkbox {
+	margin-left: 26px; 
+}
+
+#checkbox2 {
+	margin-left: 10px;
+}
+
+#button {
+	margin-top: 10px;
+	background-color: rgba(0, 0, 0, .1);
+	border-radius: 2px;
+}
+
 #footerWrapper {
 	clear: both;
 	height: 50px;
@@ -155,10 +195,4 @@ a {
 	font-style: italic;
 }
 
-.blogPic {
-	background-image:url('pics/blogPic.png');
-	background-repeat: no-repeat;
-	height: 45px;
-	width: 45px;
-	margin-top: 10px;
-}
+
