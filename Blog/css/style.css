@@ -154,3 +154,11 @@ a {
 	font-weight: bold;
 	font-style: italic;
 }
+
+.blogPic {
+	background-image:url('pics/blogPic.png');
+	background-repeat: no-repeat;
+	height: 45px;
+	width: 45px;
+	margin-top: 10px;
+}
