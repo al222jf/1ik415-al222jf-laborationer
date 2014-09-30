@@ -65,7 +65,6 @@ a {
 	overflow: auto;
 	font-weight: bold;
 	font-family: Arial, Helvetica, sans-serif;
-	
 }
 
 #menu ul {
@@ -80,16 +79,65 @@ a {
 	width: 185px;
 	text-decoration: none;
 	padding: 10px 0px 10px 5px;
+	
+ 	
+	
 }
 
-#menu .active {
+/*#menu .active {
 	color: rgb(237, 237, 237);
 	background: rgb(0, 0, 0); 
 }
-
+*/
 #menu a:hover {
-	background: rgb(237, 237, 237);
-	color: rgb(0, 0, 0);
+}
+
+#start {
+	background-image: url('pics/sprite.png');
+	background-repeat: no-repeat;
+	background-position: 150px -40px;
+}
+
+#start:hover {
+	background-image: url('pics/sprite.png');
+	background-repeat: no-repeat;
+	background-position: 150px 8px;
+}
+
+#lab {
+	background-image: url('pics/sprite.png');
+ 	background-repeat: no-repeat;
+	background-position: 150px -138px;
+}
+
+#lab:hover {
+	background-image: url('pics/sprite.png');
+ 	background-repeat: no-repeat;
+	background-position: 150px -90px;
+}
+
+#pres {
+	background-image: url('pics/sprite.png');
+ 	background-repeat: no-repeat;
+	background-position: 150px -230px;
+}
+
+#pres:hover {
+	background-image: url('pics/sprite.png');
+ 	background-repeat: no-repeat;
+	background-position: 150px -182px;
+}
+
+#kont {
+	background-image: url('pics/sprite.png');
+ 	background-repeat: no-repeat;
+	background-position: 150px -328px;
+}
+
+#kont:hover {
+	background-image: url('pics/sprite.png');
+ 	background-repeat: no-repeat;
+	background-position: 150px -280px;
 }
 /*Menu buttons --------- End */
 
