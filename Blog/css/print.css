@@ -45,4 +45,8 @@
 	#presentation img {
 		border: 0;
 	}
+	a:link:after, a:visited:after { 
+	content:" [" attr(href) "] "; 
+	font-weight: bold;
+	color: black; 
 }
