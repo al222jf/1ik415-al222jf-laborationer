@@ -1,0 +1,55 @@
+
+
+body{
+	width: 100%;
+}
+
+#container{
+	width: 100%;
+}
+
+#content{
+	width: 100%;
+}
+
+#menu {
+	float: none;
+	width: 100%;
+}
+
+#menu a:hover {
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+
+#start {
+	background-image: none;
+}
+
+#start:hover {
+	background-image: none;
+}
+
+#lab {
+	background-image: none;
+}
+
+#lab:hover {
+	background-image: none;
+}
+
+#pres {
+	background-image: none;
+}
+
+#pres:hover {
+	background-image: none;
+}
+
+#kont {
+	background-image: none;
+}
+
+#kont:hover {
+	background-image: none;
+}
