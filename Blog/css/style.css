@@ -230,6 +230,10 @@ a {
 	border-radius: 2px;
 }
 
+#hcard-Adam-Lundberg {
+	visibility: hidden;
+}
+
 #footerWrapper {
 	clear: both;
 	height: 50px;
