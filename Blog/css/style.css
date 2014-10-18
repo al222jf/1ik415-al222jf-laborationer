@@ -249,7 +249,7 @@ a {
 
 
 #images {
-	
+	width: 100%;
 
 }
 
@@ -257,44 +257,51 @@ a {
 
 #images a {
 	width: 200px;
+	height: 300px;
 	display: block;
 	position: relative;
 	z-index: 50;
 	float: left;
+	transform: rotate(5deg);
 	border: 1px solid black;
+	background-color: white;
 	-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
     transition: width 2s, height 2s, transform 2s;
+
 
 	
 }
 
 #images a img {
 	width: 100%;
-	height: 100%;
+	height: auto;
 	transform: rotate(45deg);
 	-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
     transition: width 2s, height 2s, transform 2s;
 }
 
-#images a img:after {
-	content:  attr(a:title) ": ";
+#images a:after {
+	content:  attr(title);
 }
 
 #images a:nth-child(3n+0) {
-	transform: rotate(90deg);
+	transform: rotate(15deg);
 }
 
 #images a:nth-child(5n+0) {
-	transform: rotate(180deg);
+	transform: rotate(30deg);
 }
 
 #images a:hover{
+	border: 1px solid black;
+	transform: rotate(0deg);
 	transform: width 400px;
 	width: 400px;
 	z-index: 99;
 }
 
 #images a img:hover{
+	border: 1px solid black;
 	transform: rotate(0deg);
 	width: 400px;
 }	
